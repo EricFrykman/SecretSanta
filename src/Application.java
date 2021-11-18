@@ -18,13 +18,13 @@ public class Application {
                     || (Objects.equals(this.left, that.right) && Objects.equals(this.right, that.left));
         }
     }
-    private static final List<String> names = Arrays.asList("Aaron", "Monica", "Christina", "Derek", "Eric", "Zach", "Roxy", "Carmon", "Nick");
+    private static final List<String> names = Arrays.asList("Aaron", "Monica", "Christina", "Derek", "Eric", "Zach", "Roxy", "Carmen", "Nick");
     private static final List<Pair> invalidPairs = Arrays.asList(
             new Pair("Aaron","Monica"),
             new Pair("Eric", "Christina"),
             new Pair("Eric", "Derek"),
             new Pair("Zach", "Roxy"),
-            new Pair("Carmon", "Nick")
+            new Pair("Carmen", "Nick")
     );
 
 
